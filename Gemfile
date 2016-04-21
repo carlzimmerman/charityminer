@@ -24,6 +24,8 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # simple form gem
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
+gem 'devise', '~> 3.5', '>= 3.5.6'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
