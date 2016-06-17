@@ -27,7 +27,13 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 gem 'devise', '~> 3.5', '>= 3.5.6'
 
-gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'dotenv-rails', '~> 2.1.1', :groups => [:development, :test]
+
+gem 'pry-rails'
+
+gem "paperclip", "~> 5.0.0.beta2"
+
+gem 'aws-sdk', '~> 2.3'
 
 gem 'masonry-rails', '~> 0.2.4'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
