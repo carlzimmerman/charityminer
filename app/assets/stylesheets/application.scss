@@ -22,9 +22,13 @@
 
 
  body {
- 	background: #E9E9E9;
- }
-
+   background: url('http://s3.amazonaws.com/csphere/pins/images/000/000/006/original/image.jpeg')no-repeat;
+   background-size:100%;
+   height: 140px;
+   display:block;
+  padding:0 !important;
+  margin:0;
+}
  h1, h2, h3, h4, h5, h6 {
  	font-weight: 100;
  }
@@ -41,6 +45,8 @@
  		}
  	}
  }
+
+
 
  #pins {
    margin: 0 auto;
