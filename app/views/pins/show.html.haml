@@ -7,13 +7,12 @@
         %h1= @pin.title
         %p.description= @pin.description
         %p
-        Good deed submitted by
-        %p= @pin.user.email
+
       .panel-footer
         .row
           .col-md-6
             %p.user
-            Submitted by
+            Good deed submitted by
             = @pin.user.username
           .col-md-6
             .btn-group.pull-right
