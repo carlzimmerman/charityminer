@@ -53,6 +53,8 @@ Rails.application.routes.draw do
 
   # Example resource route within a namespace:
   namespace :admin do
-    resources :pins
+    resources :pins do
+      patch :approve, on: :member
+    end
   end
 end

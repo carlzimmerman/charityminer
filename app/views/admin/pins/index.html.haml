@@ -8,3 +8,4 @@
         %p.user
         Submitted by
         = pin.user.email
+        = button_to("Approve", approve_admin_pin_path(pin), class: "btn btn-primary", method: :patch)
