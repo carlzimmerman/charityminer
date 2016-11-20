@@ -21,3 +21,8 @@
 
 en:
   hello: "Hello world"
+  helpers:
+    submit:
+      pin:
+        create: "Submit Article"
+        update: "Update Article"
