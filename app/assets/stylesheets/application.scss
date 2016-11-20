@@ -24,6 +24,10 @@
  body {
    background: url('https://s3.amazonaws.com/cspherebackground/image1.JPG')no-repeat center center fixed;
    background-size:100%;
+   -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
    height: 140px;
    display:block;
   padding:0 !important;
