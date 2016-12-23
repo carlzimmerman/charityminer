@@ -35,12 +35,3 @@
       = content_tag :div, msg, class: "alert alert-info"
 
     = yield
-    .earnify-widget{"data-widget-id" => "6022"}
-    :javascript
-      (function() {
-          var a = document.createElement("script");
-          var b = document.getElementsByTagName("script")[0];
-          a.async = 1;
-          a.src = "//cdn.earnify.com/widget.min.js";
-          b.parentNode.insertBefore(a, b);
-      })();
