@@ -6,7 +6,8 @@
       .panel-body
         %h1= @pin.title
         %p.description= @pin.description
-        %p
+        Neighborhood:
+        %h2.neighborhood= @pin.neighborhood.name
 
       .panel-footer
         .row
