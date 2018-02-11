@@ -1,0 +1,23 @@
+<% if @pins.count > 0 %>
+  <div class="transitions-enabled" id="pins">
+    <% @pins.approved.each do |pin| %>
+      <div class="box panel panel-default">
+        <%= link_to (image_tag pin.image.url()), pin %>
+        <div class="panel body">
+          <h2>
+            <%= link_to pin.title, pin %>
+          </h2>
+          <p class="user"></p>
+          Submitted by
+          <%= pin.user.username %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+<% if @pins.count <= 0 %>
+<div class="centered">
+  <h1> Be the first Charity in Charlotte to start accepting Bitcoin </h1>
+  <h1> Sign Up to Submit your Charity </h1>
+</div>
+<% end %>
