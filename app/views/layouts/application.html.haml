@@ -1,7 +1,7 @@
 !!! 5
 %html
 %head
-  %title Charity Miner - Web Browser Mining for Charity
+  %title Charlotte Charity Miner - Web Browser Mining for local Charity
   = stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
@@ -19,7 +19,7 @@
 %body
   %nav.navbar.navbar-default
     .container
-      .navbar-brand= link_to "Charity Miner - Web Browser Mining for Charity", root_path
+      .navbar-brand= link_to "Charlotte Charity Miner - Web Browser Mining for your local Charity", root_path
 
       -if user_signed_in?
         %ul.nav.navbar-nav.navbar-right
