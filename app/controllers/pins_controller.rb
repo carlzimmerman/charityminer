@@ -15,7 +15,7 @@ class PinsController < ApplicationController
     @pin = current_user.pins.build(pin_params)
 
     if @pin.save
-      redirect_to @pin, notice: "Thank you. Your Article is under review."
+      redirect_to @pin, notice: "Thank you. Your Charity is under review for listing."
 
     else
       render 'new'
