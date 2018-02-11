@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170127001850) do
+ActiveRecord::Schema.define(version: 20180211205655) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20170127001850) do
     t.datetime "image_updated_at"
     t.datetime "approved_at"
     t.integer  "neighborhood_id"
+    t.text     "btcaddress"
   end
 
   add_index "pins", ["neighborhood_id"], name: "index_pins_on_neighborhood_id", using: :btree

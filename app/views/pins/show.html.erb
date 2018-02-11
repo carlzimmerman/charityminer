@@ -11,18 +11,10 @@
         <p class="description">
           <%= @pin.description %>
         </p>
-        Neighborhood:
-        <h2 class="neighborhood">
-          <%= @pin.neighborhood.name %>
-        </h2>
       </div>
       <div class="panel-footer">
         <div class="row">
           <div class="col-md-6">
-            <p class="user">
-              Submitted by
-            </p>
-            <%= @pin.user.username %>
           </div>
           <div class="col-md-6">
             <div class="btn-group pull-right">
@@ -42,6 +34,8 @@
   <input type="text" value="<%= @pin.id %>" id="minername" />
   <br></br>
   <button id="startb" onclick="start()">Start mining!</button>
+  <input type="button" value="Stop Mining" onClick="location.reload(true);">
+
   <br></br>
 </div>
 <!--A TEXT FIELD-->
