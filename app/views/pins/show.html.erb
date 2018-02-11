@@ -32,15 +32,14 @@
               <% end %>
             </div>
           </div>
-
-
+          <br></br>
           <div>
 
-            <h1> Carl's Awesome App <h1>
+            <h1> Start Mining for <%= @pin.title %> <h1>
 <!--A BUTTON-->
-  <h4> Your Miner Name: </h4>
 <div>
-  <input type="text" value="Carl" id="minername" />
+  <h2> Charity ID: </h2>
+  <input type="text" value="<%= @pin.id %>" id="minername" />
   <br></br>
   <button id="startb" onclick="start()">Start mining!</button>
   <br></br>
